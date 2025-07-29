@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guardia Costiera Ausiliaria</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: url('137a79a2-86c8-4afc-81d5-fba5e90639c9.png') no-repeat center center fixed;
+      background-size: cover;
+      position: relative;
+      color: #ffffff;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .regione-lazio {
+      position: absolute;
+      bottom: 100px;
+      left: 20px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 4.5em;
+      color: #633a2f;
+      text-align: left;
+      text-shadow: 2px 2px 4px black;
+      letter-spacing: 2px;
+    }
+
+    p {
+      position: absolute;
+      bottom: 40px;
+      left: 20px;
+      font-size: 1.5em;
+      color: white;
+      text-align: left;
+      text-shadow: 2px 2px 4px black;
+      letter-spacing: 2px;
+    }
+
+    .logo-pc {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 300px;
+      height: auto;
+      z-index: 3;
+      opacity: 0.2; /* trasparenza tra 0 (completamente trasparente) e 1 (opaco) */
+
+    }
+
+    .cta-button {
+      margin-top: 2em;
+      padding: 1em 2em;
+      background-color: #ff3b3b;
+      border: none;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #d63030;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo Protezione Civile -->
+  <img src="protezione_civile_lazio-logo.png" alt="Protezione Civile" class="logo-pc">
+
+  <div class="content">
+    <div class="regione-lazio">R E G I O N E   L A Z I O</div>
+    <p>Presto operativi! Per info od adesioni +39 392 8989998</p>
+  </div>
+</body>
+</html>
